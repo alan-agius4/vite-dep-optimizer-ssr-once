@@ -1,0 +1,17 @@
+{
+  "name": "ssr-dep-optimizer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cjs-dep-one": "file:./cjs-dep-one",
+    "cjs-dep-two": "file:./cjs-dep-two"
+  },
+  "devDependencies": {
+    "vite": "^4.4.11"
+  }
+}
